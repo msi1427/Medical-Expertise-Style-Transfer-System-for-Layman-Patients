@@ -53,7 +53,7 @@ After building from sources, navigate to [http://localhost:5000](http://localhos
 
 There we land on the homepage
 
-![](snaps\homepage.png)
+<img src = "snaps\homepage.png" width="1000" height="500">
 
 <br/>
 
@@ -63,13 +63,13 @@ There we land on the homepage
 
 If we click on 'Expertise Classifier' we land on the following page where we can put any text to classify.
 
-![](snaps\classifier_input.png)
+<img src = "snaps\classifier_input.png" width="1000" height="500">
 
 <br/>
 
 If we click on 'Check Expertise Style' we get the expertise score and the style as output.
 
-![](snaps\classifier_results.png)
+<img src = "snaps\classifier_results.png" width="1000" height="500">
 
 <br/><br/>
 
@@ -77,7 +77,7 @@ If we click on 'Check Expertise Style' we get the expertise score and the style 
 
 If we click on 'Expertise to Layman' we land on the following page where we can put any expert text to transfer.
 
-![](snaps\transfer_input.png)
+<img src = "snaps\transfer_input.png" width="1000" height="500">
 
 <br/>
 
@@ -85,7 +85,7 @@ If we click on 'Transfer to Layman' we get the generated layman text as output.
 
 NB: If we put a layman text there, we will get a layman text as output. 
 
-![](snaps\transfer_results.png)
+<img src = "snaps\transfer_results.png" width="1000" height="500">
 
 
 
