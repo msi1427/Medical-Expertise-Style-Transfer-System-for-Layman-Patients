@@ -1,0 +1,18 @@
+{% extends 'base.html' %} {% block head %}
+<title>Style Classifier</title>
+{% endblock %} 
+
+{% block body %}
+<div class="content">
+  
+    <h2 class="text-dark">Classifier Results</h2>
+    <br/>
+    <br/>
+    <h4 class="text-dark"> Input Text : {{ text }}</h4>
+    <br/>
+    <h4 class="text-dark">Expertise Percentage : {{ expertise }}</h4>
+    <br/>
+    <h4 class="text-dark">Style : {{ style }}</h4>
+
+
+{% endblock %}

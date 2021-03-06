@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Style Classifier</title>
+{% endblock %}
+
+{% block body %}
+<div class="container p-2 p-md-5">
+  <h1 style="text-align: center"> Expertise Style Classifer </h1>
+  <form action='/classifier' method="POST">
+    <div class="form-group text-dark">
+      <input type="text" name="name" id="name" class="form-control" placeholder="Write Something">
+    </div>
+    <br/>
+    <button type="submit" class="btn btn-outline-dark btn-lg"><i class="fas fa-check"></i> Check Expertise Style</button>
+</div>
+{% endblock %}
