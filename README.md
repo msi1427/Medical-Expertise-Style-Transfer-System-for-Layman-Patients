@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is our academic project for Human Computer Interaction course [Course Code : CSE 4829]. We designed a webapp in aid for layman patients to get a better understanding on expert texts by medical experts.  We used two Transformer-based deep learning models for inference. Details about the models will be published later after all the training and testing phases which is our ongoing research.
+This is our academic project for Human-Computer Interaction course [Course Code : CSE 4829]. We designed a web app in aid for layman patients to get a better understanding of expert texts by medical experts. We used two transformer-based deep learning models for inference. Details about the models will be published later after all the training and testing phases which are our ongoing research.
 
 <br/>
 
@@ -81,7 +81,7 @@ Run the following softcopy using the app : ".\lofi-prototype\Medical Expertise S
 
 ### Video Walkthrough [High Fidelity Prototype]
 
-YouTube Link : *link will be added here.*
+YouTube Link : https://youtu.be/1viSX3BSXQ4 
 
 ### Homepage
 
