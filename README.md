@@ -4,6 +4,8 @@
 
 This is our academic project for Human Computer Interaction course [Course Code : CSE 4829]. We designed a webapp in aid for layman patients to get a better understanding on expert texts by medical experts.  We used two Transformer-based deep learning models for inference. Details about the models will be published later after all the training and testing phases which is our ongoing research.
 
+<br/>
+
 ## Contributors
 
 <ul>
@@ -13,11 +15,13 @@ This is our academic project for Human Computer Interaction course [Course Code 
     <li> Tani Barkat Shalanyuy (ID : 160041083) </li>
 </ul>
 
+<br/>
+
 ## Affiliation
 
-Computer Science and Engineering
-Islamic University of Technology (IUT)
-Gazipur, Dhaka, Bangladesh
+Computer Science and Engineering <br/>
+Islamic University of Technology (IUT) <br/>
+Gazipur, Dhaka, Bangladesh <br/>
 
 ## Build from sources
 
@@ -69,13 +73,13 @@ Gazipur, Dhaka, Bangladesh
 
 ## Low Fidelity Prototype
 
-[Done using Balsamiq]
+Download Balsamiq Desktop App : https://balsamiq.com/wireframes/desktop/
 
-
+Run the following softcopy : *git link to the softcopy of prototyping will be added here* 
 
 ## Walkthrough
 
-### Video Walkthrough
+### Video Walkthrough [High Fidelity Prototype]
 
 YouTube Link : *link will be added here.*
 
