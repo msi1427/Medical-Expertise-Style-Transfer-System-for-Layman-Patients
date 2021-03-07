@@ -13,6 +13,9 @@ def index():
 @app.route('/classifier',methods=['GET','POST'])
 def classifier():
     if request.method == 'POST':
+        
+        # Get the text from user and classifies the style
+
         text = request.form['name']
         expertise = style_classifier.classifier(text).item() * 100.0
         style = "Expert" if expertise > 50.0 else "Layman"
@@ -24,6 +27,9 @@ def classifier():
 @app.route('/transfer',methods=['GET','POST'])
 def transfer():
     if request.method == 'POST':
+
+        # Get the text from user and transfer it to layman
+
         expert = request.form['name']
         layman = style_transfer.transfer_to_layman(expert)
         return render_template('transfer_results.html',expert=expert,layman=layman)

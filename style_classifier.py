@@ -14,6 +14,8 @@ from werkzeug.utils import secure_filename
 
 def classifier(text):
 
+    # Returns the expertise percentage
+
     model_path = Path(join(dirname(realpath(__file__)), "trained_models\\" + secure_filename("style-classifier.pkl")))
 
     learn = load_learner(model_path)

@@ -14,6 +14,8 @@ from werkzeug.utils import secure_filename
 
 def masking_expert_terms(text):
 
+    # Masks the experts terms
+
     model_path = Path(join(dirname(realpath(__file__)), "trained_models\\" + secure_filename("style-classifier.pkl")))
 
     learn = load_learner(model_path)
@@ -44,6 +46,8 @@ def masking_expert_terms(text):
 
 
 def transfer_to_layman(text):
+
+    # Transfers an expert style text to layman style text
 
     masked_text = masking_expert_terms(text)
 

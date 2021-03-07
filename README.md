@@ -1,5 +1,24 @@
 # Medical Expertise Style Transfer System for Layman Patients
 
+## Introduction
+
+This is our academic project for Human Computer Interaction course [Course Code : CSE 4829]. We designed a webapp in aid for layman patients to get a better understanding on expert texts by medical experts.  We used two Transformer-based deep learning models for inference. Details about the models will be published later after all the training and testing phases which is our ongoing research.
+
+## Contributors
+
+<ul>
+    <li> Mohammad Sabik Irbaz (ID : 160041004, Email : sabikirbaz@iut-dhaka.edu ) </li>
+    <li> Abir Azad (ID : 160041024, Email : abirazad@iut-dhaka.edu ) </li>
+    <li> Anika Tasnim Preoty (ID : 160041044) </li>
+    <li> Tani Barkat Shalanyuy (ID : 160041083) </li>
+</ul>
+
+## Affiliation
+
+Computer Science and Engineering
+Islamic University of Technology (IUT)
+Gazipur, Dhaka, Bangladesh
+
 ## Build from sources
 
 1. Clone the Git Repo
@@ -48,6 +67,12 @@
 
 <br/>
 
+## Low Fidelity Prototype
+
+[Done using Balsamiq]
+
+
+
 ## Walkthrough
 
 ### Video Walkthrough
@@ -94,14 +119,14 @@ NB: If we put a layman text there, we will get a layman text as output.
 
 <img src = "snaps\transfer_results.png" width="1000" height="500">
 
-
+<br/><br/>
 
 ## Look into the Trained Models
 
 We are using two trained models. <br/>
 
 1. style-classifier.pkl => given a text this model, it can classify the expertise of that sentence in medical domain. <br/>
-2. maskedlm-model.pkl => given a text with gaps, it can generate the layman terms in the gaps. <br/>
+2. maskedlm-model.pkl => given a text with gaps, it can generate layman terms in the gaps. <br/>
 
 NB : For now, treat these models as black-box, since the the methodology is still our ongoing research. We will publish the details as soon as we finish all our training and testing. <br/>
 
