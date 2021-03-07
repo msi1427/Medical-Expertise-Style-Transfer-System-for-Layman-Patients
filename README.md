@@ -75,7 +75,7 @@ Gazipur, Dhaka, Bangladesh <br/>
 
 Download Balsamiq Desktop App : https://balsamiq.com/wireframes/desktop/
 
-Run the following softcopy : *git link to the softcopy of prototyping will be added here* 
+Run the following softcopy using the app : ".\lofi-prototype\Medical Expertise Style Transfer System Prototype.bmpr" 
 
 ## Walkthrough
 
